@@ -7,9 +7,9 @@
 ![1](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/e68e331c-d4e6-4aa1-9346-072e7ef224d1)
 
 
-# second page
+# other page
 
-![image2 psd](https://github.com/SajedehEydi/Template-Life-Coach-Website-/assets/155808160/e5a0d3b2-9cea-4c47-a9b5-4bbd80832754)
+![2](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/8da28a2e-93c3-40b7-a6b4-122f27d878cd)
 
 - [Demo Project]( https://sajedeheydi.github.io/Professional-branding-design-services./)
 
