@@ -1,0 +1,610 @@
+.first_page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/bench-accounting-C3V88BOoRoM-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.first_page::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.377);
+  position: absolute;
+}
+.first_page > .row {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.first_page > .row > * {
+  width: 100%;
+}
+.first_page > .row > header {
+  height: 15vh;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+}
+.first_page > .row > header > * {
+  height: 100%;
+}
+.first_page > .row > header > div {
+  width: 20%;
+  align-content: center;
+}
+.first_page > .row > header > div > a {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: white;
+  margin-left: 30px;
+}
+.first_page > .row > header > nav {
+  width: 60%;
+}
+.first_page > .row > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.first_page > .row > header > nav > ul > li {
+  height: 70%;
+  display: flex;
+  margin: 0 20px;
+}
+.first_page > .row > header > nav > ul > li > a {
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+}
+.first_page > .row > header > nav > ul > li > a:hover {
+  color: rgb(174, 172, 172);
+}
+.first_page > .row > header > span {
+  width: 20%;
+  align-items: center;
+  padding-right: 30px;
+  justify-content: flex-end;
+}
+.first_page > .row > header > span > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  height: 45%;
+  background-color: #FE475C;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+}
+.first_page > .row > div {
+  height: 100vh;
+  justify-content: center;
+  padding-top: 250px;
+}
+.first_page > .row > div > .box {
+  width: 50%;
+  min-height: 60%;
+}
+.first_page > .row > div > .box > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.first_page > .row > div > .box > h2 {
+  height: 200px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 80px;
+}
+.first_page > .row > div > .box > p {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 100px;
+  line-height: 30px;
+}
+.first_page > .row > div > .box > span {
+  align-items: center;
+  justify-content: center;
+}
+.first_page > .row > div > .box > span > a {
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 50px;
+  margin: 40px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_page > .row > div > .box > span > a:first-child {
+  background-color: #FE475C;
+}
+.first_page > .row > div > .box > span > a:last-child {
+  border: 2px solid white;
+}
+.first_page > .row > div > .box > span > a:last-child:hover {
+  background-color: white;
+  color: black;
+}
+.first_page > .row > span {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.first_page > .row > span:hover > nav {
+  right: 200px;
+}
+.first_page > .row > span > * {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.first_page > .row > span > nav {
+  transition: 1s;
+}
+.first_page > .row > span > nav > * {
+  height: 30px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.first_page > .row > span > nav > p {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+  font-style: italic;
+  transition: 0.4s;
+  text-shadow: 5px 5px 5px white;
+}
+.first_page > .row > span > nav > p:hover {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.first_page > .row > span > nav > div > a {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background-color: white;
+}
+.first_page > .row > span > nav > div > a:hover {
+  background-color: black;
+  box-shadow: 0 0 10px gray;
+}
+.first_page > .row > span > nav > div > a:hover > i {
+  color: white;
+}
+.first_page > .row > span > nav > div > a > i {
+  font-size: 30px;
+  color: black;
+  transition: 0.4s;
+}
+.first_page > .row > span > span {
+  z-index: 1;
+  cursor: pointer;
+}
+.first_page > .row > span > span > figure {
+  width: 200px;
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.first_page > .row > span > span > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.second {
+  width: 100%;
+  height: 40vh;
+  justify-content: center;
+}
+.second > .row {
+  width: 40%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.second > .row > h2 {
+  font-size: 35px;
+  margin-top: 70px;
+}
+.second > .row > p {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 30px 50px;
+  line-height: 25px;
+}
+
+.three {
+  width: 100%;
+  height: 100vh;
+}
+.three > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-content: center;
+}
+.three > .row > figure {
+  width: 30%;
+  height: 50%;
+  flex-grow: 1;
+}
+.three > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.four {
+  width: 100%;
+  height: 80vh;
+  background-color: #F7F7F7;
+}
+.four > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.four > .row > h2 {
+  width: 100%;
+  height: 30%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.four > .row > div {
+  width: 80%;
+  height: 70%;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+.four > .row > div > div {
+  width: 30%;
+  height: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.four > .row > div > div > figure {
+  width: 20%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.four > .row > div > div > figure > img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.four > .row > div > div > h3 {
+  width: 80%;
+  height: 30%;
+}
+.four > .row > div > div > p {
+  width: 80%;
+  height: 70%;
+  line-height: 30px;
+  color: rgb(50, 47, 47);
+}
+
+.five {
+  width: 100%;
+  height: 100vh;
+}
+.five > .row {
+  width: 100%;
+  height: 100%;
+}
+.five > .row > * {
+  width: 100%;
+}
+.five > .row > div {
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div > * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div > h2 {
+  width: 50%;
+  height: 50%;
+  padding-top: 50px;
+  font-size: 35px;
+}
+.five > .row > div > p {
+  width: 60%;
+  height: 50%;
+  padding: 0 180px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+.five > .row > article {
+  height: 70%;
+  justify-content: center;
+}
+.five > .row > article > figure {
+  width: 18%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+.five > .row > article > figure > * {
+  width: 100%;
+}
+.five > .row > article > figure > img {
+  height: 80%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.five > .row > article > figure > div {
+  height: 20%;
+}
+.five > .row > article > figure > div > * {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > article > figure > div > h3 {
+  height: 50%;
+}
+.five > .row > article > figure > div > p {
+  height: 50%;
+  color: #FE475C;
+}
+
+.six {
+  width: 100%;
+  height: 90vh;
+  background-color: #F7F7F7;
+}
+.six > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row > * {
+  height: 100%;
+  padding-right: 100px;
+}
+.six > .row > figure {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.six > .row > figure > img {
+  width: 70%;
+}
+.six > .row > div {
+  width: 50%;
+  justify-content: flex-start;
+  align-content: center;
+  padding-left: 20px;
+}
+.six > .row > div > * {
+  width: 100%;
+  padding-right: 50px;
+}
+.six > .row > div > h2 {
+  height: 20%;
+  font-size: 32px;
+}
+.six > .row > div > p {
+  height: 20%;
+  line-height: 25px;
+  font-size: 15px;
+  color: rgb(46, 45, 45);
+}
+.six > .row > div > div {
+  height: 30%;
+}
+.six > .row > div > div > span {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.six > .row > div > div > span > img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.six > .row > div > div > span > p {
+  padding-left: 20px;
+  color: rgb(46, 45, 45);
+}
+
+.seven {
+  width: 100%;
+  height: 120vh;
+}
+.seven > .row {
+  width: 100%;
+  height: 100%;
+}
+.seven > .row > * {
+  width: 100%;
+}
+.seven > .row > div {
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.seven > .row > div > * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.seven > .row > div > h2 {
+  width: 50%;
+  height: 50%;
+  padding-top: 50px;
+  font-size: 35px;
+}
+.seven > .row > div > p {
+  width: 60%;
+  height: 50%;
+  padding: 0 180px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+.seven > .row > article {
+  height: 70vh;
+  justify-content: center;
+}
+.seven > .row > article > figure {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+.seven > .row > article > figure > * {
+  width: 100%;
+}
+.seven > .row > article > figure > img {
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.seven > .row > article > figure > div {
+  height: 50%;
+}
+.seven > .row > article > figure > div > * {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.seven > .row > article > figure > div > div {
+  height: 15%;
+}
+.seven > .row > article > figure > div > a {
+  height: 25%;
+  font-size: 20px;
+}
+.seven > .row > article > figure > div > a:hover {
+  color: #FE475C;
+}
+.seven > .row > article > figure > div > p {
+  height: 45%;
+  color: rgb(59, 59, 59);
+  line-height: 25px;
+}
+.seven > .row > article > figure > div > nav {
+  height: 15%;
+}
+.seven > .row > article > figure > div > nav > a {
+  color: #FE475C;
+  text-decoration: underline;
+}
+.seven > .row > span {
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.seven > .row > span > a {
+  width: 150px;
+  height: 50px;
+  background-color: #FE475C;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+}
+.footer > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer > .row > figure {
+  width: 30%;
+  height: 80%;
+}
+.footer > .row > figure > img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40% 25% 50% 20%;
+}
+.footer > .row > nav {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.footer > .row > nav > p {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.footer > .row > nav > a {
+  margin: 0 30px;
+  background-color: white;
+}
+.footer > .row > nav > a > img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=local.css.map */
